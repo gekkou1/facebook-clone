@@ -1,0 +1,38 @@
+.footerContainer{
+  background: var(--blanco);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footerLinks{
+  border-bottom: 1px solid lightgray;
+}
+
+.footerLinks>ul{
+  display: flex;
+  align-items: center;
+  width: 80vw;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.footerLinks>ul>li{
+  font-size: 12px;
+  color: gray;
+  padding: 0 10px;
+  list-style: none;
+}
+.footerLinks>ul>li:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.footerLinks>ul>button{
+  padding: 0px 8px;
+  cursor: pointer;
+}
+
+.footerContainer>span{
+  font-size: 12px;
+  justify-content: flex-start;
+  color: gray;
+}

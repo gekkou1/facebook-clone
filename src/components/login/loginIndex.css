@@ -1,0 +1,318 @@
+.loginContenedor{
+  width: 100%;
+  min-height: 100vh;
+  background: var(--bg-celeste);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loginText{
+ width: 600px;
+  padding: 0 40px;
+}
+
+.loginText>h1{
+  color: var(--azul);
+  font-size: 60px;
+}
+.loginText>p{
+  font-size: 22px;
+  width: 80%;
+}
+.loginRight{
+  min-width: 400px;
+  width: 480px;
+  padding: 0 40px;
+}
+.loginFormContainer{
+  background: var(--blanco);
+  height: auto;
+  padding:5px 10px;
+  border-radius: 10px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 15px lightgray;
+}
+
+.loginForm{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+}
+
+.loginForm>input{
+  padding: 15px;
+  border: 1px solid lightgray;
+  width: 100%;
+  border-radius: 5px;
+  color: lightgray;
+}
+
+.loginFormBtnSession{
+  color: var(--blanco);
+  background: var(--azul);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+}
+.loginFormBtnSession:hover{
+  background: hsl(220, 100%, 50%);
+}
+.loginFormBtnSession2{
+  color: var(--blanco);
+  background: var(--verde);
+  padding: 10px;
+  width: 66%;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  margin: 20px;
+  cursor: pointer;
+}
+.loginFormBtnSession2:hover{
+  background: hsl(116, 72%, 33%);
+}
+
+.loginRight>p{
+  padding: 20px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.loginRight>p>a{
+  text-decoration: none;
+  color: var(--font);
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.loginForm>a{
+  font-size: 12px;
+  padding: 10px;
+  color: var(--azul);
+  text-decoration: none;
+}
+
+/******** RECIENTES ************/
+/******** RECIENTES ************/
+/******** RECIENTES ************/
+.loginRecientes{
+ width: 600px; 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 40px;
+}
+.loginRecientes>h1{
+  color: var(--azul);
+  font-size: 40px;
+}
+.loginRecientes>h2{
+  font-weight: 400;
+}
+.loginRecientes>p{
+  font-size: 12px;
+  color: gray;
+}
+
+.loginRecientesCardsContainers{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.loginRecientesCard{
+  width: 160px;
+  height: 206px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  overflow: hidden;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  position: relative;
+}
+
+.loginRecientesCard:hover{
+  box-shadow: 0px 0px 15px lightgray;
+  cursor: pointer;
+}
+
+.loginUsername{
+  background: var(--blanco);
+  color: var(--font);
+  font-weight: 400;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
+.loginX{
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  fill:var(--gris);
+  font-size: 20px;
+}
+
+.loginX:hover{
+  /* fill:var(--blanco); */
+  font-size: 30px;
+  fill: var(--blanco);
+  top: -2px;
+  left: -2px;
+  transition: ease all 100ms;
+}
+.loginNotif{
+  background: var(--rojo);
+  color: var(--blanco);
+  z-index: 9;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  border-radius: 50%;
+  height: 24px;
+  width: 24px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.loginPlus{
+  fill: var(--azul);
+  font-size: 60px;
+  height: 890%;
+}
+/******** NEW ACCOUNT ************/
+/******** NEW ACCOUNT ************/
+/******** NEW ACCOUNT ************/
+.newAccContainer{
+    background-color: rgba(255,255,255,.8);
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 999;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.newAccWrapper{
+  background: var(--blanco);
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px lightgray;
+  overflow: hidden;
+  width: 432px;
+  min-height: 558px;
+}
+
+.newAccHeaders{
+  border-bottom: 1px solid var(--grisSuave);
+  padding: 10px 20px;
+  position: relative;
+}
+.newAccXMark{
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--gris);
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+.newAccHeaders>h3{
+  font-size: 30px;
+}
+.newAccHeaders>p{
+  font-size: 14px;
+  color: var(--gris);
+}
+
+.newAccForm{
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.newAccNames{
+  display: flex;
+  gap: 10px;
+}
+.newAccInputsNames{
+  padding:  10px;
+  background: var(--bg-celeste);
+  border:1px solid var(--grisSuave);
+  border-radius: 5px;
+  color: var(--grisSuave);
+  width: 50%;
+}
+
+.newAccInputs{
+  padding:  10px;
+  background: var(--bg-celeste);
+  border:1px solid var(--grisSuave);
+  border-radius: 5px;
+  color: var(--grisSuave);
+  width: 100%;
+}
+.newAccOptions{
+  font-size: 11px;
+  color: var(--gris);
+}
+
+.newAccBirthday, .newAccSexo{
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.newAccFormSelection, .newAccSexoOptions{
+  padding: 10px 8px;
+  width: 33%;
+  border: 1px solid var(--grisSuave);
+  border-radius: 5px;
+  background: var(--blanco);
+}
+.newAccSexoOptions{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+.newAccLittleLetter{
+  font-size: 11px;
+  color: var(--gris);
+}
+
+@media only screen and (max-width: 820px){
+  .loginContenedor{
+    flex-direction: column;
+  }
+  .loginRecientes{
+    align-items: center;
+    width: 100%;
+  }
+  .loginRecientesCardsContainers{
+    justify-content: center;
+  }
+}
