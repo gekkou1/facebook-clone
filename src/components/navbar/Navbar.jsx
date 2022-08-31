@@ -41,13 +41,14 @@ const Navbar = () => {
 
   const navLinksAccountIcons = [
     <CgMenuGridR />,
-    <FaFacebookMessenger onClick={() => openMessenger(!messenger)} />,
-    <FaBell onClick={() => openNotification(!notification)} />,
+    <FaFacebookMessenger onClick={() => openMessenger(!messenger) || openNotification(false)} />,
+    <FaBell onClick={() => openNotification(!notification) || openMessenger(false)} />,
     <img src={profilePicture} className='ppNavbar' alt='account' />
   ];
 
   const [notification, openNotification] = useState(false)
   const [messenger, openMessenger] = useState(false)
+
 
   return (
     <header>

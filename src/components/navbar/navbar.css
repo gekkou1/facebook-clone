@@ -178,7 +178,7 @@ position: relative;
   overflow-y: auto;
 }
 
-.notifHeader{
+.notifHeader, .messengerHeader{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -190,6 +190,46 @@ position: relative;
 }
 .notifHeader>svg{
   font-size: 22px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.notifHeader>svg:hover{
+  background: var(--bg-celeste);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.messengerIcons>svg{
+  font-size: 22px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 5px;
+   
+}
+.messengerIcons>svg:hover{
+  background: var(--bg-celeste);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.messengerIcons{
+    height: 100%;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+}
+
+.messengerSearch{
+      margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    background: var(--bg-celeste);
+    color: var(--gris);
+    width: 94%;
+  min-width: auto;
 }
 
 .notifHeaderOptions{
@@ -218,7 +258,7 @@ position: relative;
 }
 
 .nofifListItem{
-  padding: 5px;
+  padding: 5px 8px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -287,16 +327,29 @@ background-position: 0px -754px;
 }
 .notifImage{
   border-radius: 50%;
+  height:56px;
+  width:56px;
 }
 
-.notifListItemText{
+.messageRead{
+  font-size: 12px;
+  color: var(--gris);
+}
+
+.messageUnread{
+  color: var(--azul);
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.notifListItemTextUnread{
   font-size: 14px;
   font-weight: 400;
   position: relative;
   width: 72%;
 }
 
-.notifListItemText::before{
+.notifListItemTextUnread::before{
   content: '';
   width: 12px;
   height: 12px;
@@ -310,3 +363,10 @@ background-position: 0px -754px;
   margin-bottom: auto;
   right: -25px;
 }
+.notifListItemTextRead{
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+  width: 72%;
+}
+
