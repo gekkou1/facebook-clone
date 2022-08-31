@@ -1,0 +1,6 @@
+.feed{
+  background: var(--bg-celeste);
+  min-height: 100vh;
+  width: 100%;
+  padding-top:  70px;
+}

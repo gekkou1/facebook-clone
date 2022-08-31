@@ -71,9 +71,11 @@ const Footer = () => {
           ))}
         </ul>
       </div>
-      <span>
-        Mera © 2022
-      </span>
+      <a href='https://kevinrizo.com/' rel='noreferrer' target='_blank'>
+        <span>
+          Kevin Rizo © 2022
+        </span>
+      </a>
     </div>
   )
 }

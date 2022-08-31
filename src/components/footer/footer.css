@@ -31,7 +31,7 @@
   cursor: pointer;
 }
 
-.footerContainer>span{
+.footerContainer>a>span{
   font-size: 12px;
   justify-content: flex-start;
   color: gray;

@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import pp from '../../media/images/profilePicture.jpg';
 import { AiFillCloseCircle, AiFillPlusCircle, AiFillQuestionCircle } from 'react-icons/ai';
-import Footer from '../footer/Footer';
+import Footer from '../../components/footer/Footer';
 import './loginIndex.css';
+import { Link } from 'wouter';
 
 const NewAccount = ({ windowRegistration }) => {
   return (
@@ -150,9 +151,11 @@ const LoginIndex = () => {
             <form className='loginForm'>
               <input type="text" id="username" name="username" placeholder='Correo electrónico o número de teléfono' />
               <input type="password" id="password" name="password" placeholder='Contraseña' />
-              <button className='loginFormBtnSession'>
-                Iniciar sesión
-              </button>
+              <Link to='feed'>
+                <button className='loginFormBtnSession'>
+                  Iniciar sesión
+                </button>
+              </Link>
               <a href='#' >
                 ¿Olvidaste tu contraseña?
               </a >

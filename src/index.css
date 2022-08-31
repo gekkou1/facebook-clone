@@ -8,14 +8,21 @@
   --rojo:#fa3e3e;
   --bg-celeste:#f0f2f5;
   --font:#1c1e21;
+  --negro-Icon:#050505;
   --blanco:#ffffff;
   --gris:gray;
   --grisSuave: lightgray;
+  --gris-Icon:#65676b;
+  --grisFondo: #E4E6EB;
   font-family: 'Poppins', sans-serif;
   transition: 300ms ease all;
 }
 .azul{
   color: var(--azul);
+}
+.azulMasBG{
+  color: var(--azul);
+  background: var(--bg-celeste);
 }
 .falseLinkAzul{
   color: var(--azul);
