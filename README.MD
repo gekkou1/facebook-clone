@@ -1,6 +1,9 @@
 # facebook clone
-A facebook front-end clone project made it on React + Vite, 
-if all goes as planned it can end up being fullstack MERN project with express + graphql + mongoDB in the backend side... we'll see.
+A facebook clone project made it on **React + Vite**⚡.
+
+Mostly the front-end, if all goes as planned it can end up being fullstack MERN project with express + graphql + mongoDB in the backend side... we'll see.
+
+>pd: The project is in spanish language, but if people show interest i can translate it to english.
 
 ## Demo
 ![Demo-1](src/media/images/demo/000.jpg)
@@ -23,4 +26,3 @@ Run the project
 ```
 yarn dev
 ```
-
