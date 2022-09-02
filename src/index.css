@@ -6,6 +6,7 @@
   --azul:#1877f2;
   --verde:#36a420;
   --rojo:#fa3e3e;
+  --amarillo:#F7B927;
   --bg-celeste:#f0f2f5;
   --font:#1c1e21;
   --negro-Icon:#050505;
@@ -28,4 +29,7 @@
   color: var(--azul);
   cursor: pointer;
   text-decoration: underline;
+}
+.fullWidth{
+  width: 100%;
 }

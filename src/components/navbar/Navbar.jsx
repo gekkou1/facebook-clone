@@ -42,7 +42,7 @@ const Navbar = () => {
   const navLinksAccountIcons = [
     <CgMenuGridR />,
     <FaFacebookMessenger onClick={() => openMessenger(!messenger) || openNotification(false)} />,
-    <FaBell onClick={() => openNotification(!notification) || openMessenger(false)} />,
+    <FaBell onClick={() => openNotification(!notification) || openMessenger(false)} className='notificationBell' />,
     <img src={profilePicture} className='ppNavbar' alt='account' />
   ];
 

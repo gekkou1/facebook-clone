@@ -1,0 +1,141 @@
+.postContainer{
+  background: var(--blanco);
+  /* padding: 0 12px; */
+  margin: 15px 50px;
+  border-radius: 10px;
+  width: 500px;
+  /* height: 130px; */
+  height: 745px;
+  box-shadow: 0px 1px 10px lightgrey;
+  overflow: hidden;
+}
+.postHeader{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 10px;
+}
+
+.postUserImg{
+  border-radius: 50%;
+  width: 40px;
+  cursor: pointer;
+  position:relative;
+}
+
+.onlineComment::before{
+    content: '';
+    background: var(--verde);
+    width: 8px;
+    height: 8px;
+    border: 2px solid var(--blanco);
+    position: absolute;
+    left: 48px;
+    top: 40px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.postUserLeft{
+ display: flex;
+ align-items: center;
+ gap: 10px;
+}
+
+.postUserinside{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.postUserinsideText{
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--font);
+}
+
+.postUserinsideTextDesc{
+font-size: 14px;
+}
+
+.postUserinsideTime{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 5px;
+  gap: 3px;
+  font-size: 12px;
+ color: var(--gris);  
+}
+.postUserinsideTime>span{
+  cursor: pointer;
+  font-size: 12px;
+}
+.postUserinsideTime>span:hover{
+  text-decoration: underline;
+}
+
+.tagFriends{
+ color: var(--gris);  
+ font-size: 16px;
+ width: 16px;
+ height: 16px;
+ text-align: center;
+}
+
+.postMoreOptions{
+  font-size: 22px;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  padding: 5px;
+  color: var(--gris);
+  cursor: pointer;
+  border-radius: 50%;
+}
+.postMoreOptions:hover{
+  background: var(--bg-celeste);
+}
+
+.postImage{
+  cursor: pointer;
+  width: 100%;
+}
+
+.postFooter{
+  padding: 10px;
+  border: 1px solid var(--grisSuave);
+  border-radius: 0 0 10px 10px;
+  margin: 0 10px;
+  margin-top: -10px;
+}
+
+.postShareSection{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border-bottom: 1px solid var(--grisSuave); */
+  padding: 0 30px;
+  margin-top: 5px;
+}
+.postCommentSection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.postCommentIcons{
+  position: absolute;
+  top:18px;
+  right:40px;
+
+  display: flex;
+  gap: 10px;
+  color: var(--gris);
+}
+
+.postCommentIconsSVG{
+  font-size: 22px;
+  cursor: pointer;
+}

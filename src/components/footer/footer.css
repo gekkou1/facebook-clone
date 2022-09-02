@@ -36,3 +36,20 @@
   justify-content: flex-start;
   color: gray;
 }
+
+.leftSideBarInfoFooter{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.leftSideBarItemFooter{
+  padding: 0 3px;
+  font-size: 11px;
+  line-height: 12px;
+  color: var(--gris);
+  cursor: pointer;
+  list-style: none;
+}
+.leftSideBarItemFooter:hover{
+  text-decoration: underline;
+}

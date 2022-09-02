@@ -1,0 +1,41 @@
+.leftSideBarContainer{
+  max-width: 320px;
+  overflow-y: scroll;
+}
+
+.SideBartitle{
+  color: var(--gris);
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 20px;
+  padding-top: 10px;
+}
+.sideBarLists{
+  border-bottom: 1px solid var(--grisSuave);
+  padding:10px 20px;
+  list-style: none;
+}
+
+.leftSideBarItem{
+  padding: 10px ;
+  border-radius: 10px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.leftSideBarItem:hover{
+  cursor: pointer;
+  background: var(--grisSuave);
+}
+
+.leftSideBarIcons{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+@media only screen and (max-width: 990px){
+.leftSideBarContainer{
+    display: none;
+  }
+}

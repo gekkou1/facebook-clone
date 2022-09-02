@@ -1,4 +1,7 @@
 import Navbar from '../../components/navbar/Navbar';
+import LeftSideBar from '../../components/feed/LeftSideBar';
+import NewsFeed from '../../components/feed/NewsFeed';
+import RightSideBar from '../../components/feed/RightSideBar';
 import './feed.css';
 
 const Feed = () => {
@@ -6,9 +9,9 @@ const Feed = () => {
     <>
       <Navbar />
       <div className='feed'>
-        <h1>
-          News Feed
-        </h1>
+        <LeftSideBar />
+        <NewsFeed />
+        <RightSideBar />
       </div>
     </>
   )

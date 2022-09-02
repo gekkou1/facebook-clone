@@ -175,7 +175,7 @@ const LoginIndex = () => {
           </p>
         </div>
       </div>
-      <Footer />
+      <Footer type="long" />
     </>
   )
 };

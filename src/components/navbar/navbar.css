@@ -5,8 +5,9 @@ nav{
   justify-content: space-between;
   background: var(--blanco);
   width: 100%;
-  height: 48px;
+  height: 52px;
   box-shadow: 0px 0px 10px lightgray;
+  z-index: 4;
 }
 
 .navSection {
@@ -176,6 +177,7 @@ position: relative;
     border-radius: 10px;
   box-shadow: 0px 0px 10px lightgray;
   overflow-y: auto;
+  z-index: 9;
 }
 
 .notifHeader, .messengerHeader{
@@ -205,7 +207,7 @@ position: relative;
   height: 30px;
   text-align: center;
   padding: 5px;
-   
+ color: var(--gris);  
 }
 .messengerIcons>svg:hover{
   background: var(--bg-celeste);
@@ -370,3 +372,29 @@ background-position: 0px -754px;
   width: 72%;
 }
 
+.notificationBell::before{
+  content: '';
+  width: 200px;
+  height: 200px;
+  background: var(--azul);
+  border-radius: 50%;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  right: 25px;
+
+}
+
+@media only screen and (max-width: 990px){
+  .navSection:nth-child(1){
+  }
+  .navLinksCenter{
+    width: unset;
+  }
+  .logoBuscar{
+    width: 20px;
+  }
+}

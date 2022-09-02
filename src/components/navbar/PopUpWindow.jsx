@@ -77,6 +77,7 @@ const PopUpWindow = ({ windowType, width }) => {
                     <b>{message.userName}</b>
                     <p className={message.read}>{message.message}</p>
                   </span>
+                  {/* <span className='unreadedNotif'></span> */}
                 </div>
               ))
             }
